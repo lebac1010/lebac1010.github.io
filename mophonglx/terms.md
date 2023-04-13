@@ -1,4 +1,4 @@
-Terms and Conditions
+<h1>Terms and Conditions</h1>
 
 WE DO NOT COLLECT ANY DATA.
 
