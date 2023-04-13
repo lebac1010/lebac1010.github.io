@@ -1,4 +1,4 @@
-Privacy Policy
+<h1>Privacy Policy</h1>
 
 Your privacy is important to us.
 
