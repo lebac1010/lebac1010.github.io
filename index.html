@@ -1,31 +1,123 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="vi">
 <head>
-<style>
-h1 {
-  text-align: center;
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>FCard Donate</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f8fa;
+      --text: #1f2937;
+      --text-secondary: #4b5563;
+      --link: #0b57d0;
+      --border: #e5e7eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --surface: #151922;
+        --text: #e6eaf2;
+        --text-secondary: #b2bac6;
+        --link: #8ab4f8;
+        --border: #232936;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 24px 16px 40px;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.35;
+    }
+
+    h2 {
+      margin: 28px 0 12px;
+      text-align: center;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--text-secondary);
+    }
+
+    .actions {
+      margin-top: 20px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .action-link {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: var(--link);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 10px;
+      font-weight: 700;
+      background: transparent;
+    }
+
+    .action-link:active {
+      transform: scale(0.99);
+    }
+  </style>
 </head>
 <body>
-<h1>HOÀN TOÀN KHÔNG CÓ QUẢNG CÁO !!!</h1><br/>
-<br/>
-Từ điển Anh - Việt hàng đầu đã có mặt trên Appstore MIỄN PHÍ!
-<br/>
-<br/>
-Anh - Việt là bộ từ điển hoàn hảo với giao diện hiện đại, dễ sử dụng, nội dung chất lượng, chức năng tìm kiếm nâng cao và phát âm tiếng bản địa cho tiếng Anh và tiếng Việt. Nhiều loại từ điển khác nhau được tích hợp với hơn 100.000 từ cập nhật, lý tưởng cho những ai cần một từ điển toàn diện để học tập, làm việc, du lịch hoặc sử dụng ở nhà!
-<br/>
-<br/>
-<br/>
-Phiên bản mới nhất của chúng tôi có nhiều nội dung mới, được lựa chọn và biên soạn cẩn thận như trò chơi học từ vựng theo các bài học như TOEIC, IELTS, TOEFL; cụm từ giao tiếp hàng ngày với nhiều chủ đề; luyện nghe tiếng Anh, ... cho phép bạn nâng cao vốn từ vựng của bạn và làm cho việc học ngoại ngữ dễ dàng hơn hơn bao giờ hết.
+  <main class="container">
+    <h1>HOÀN TOÀN KHÔNG CÓ QUẢNG CÁO!!!</h1>
 
-<h1>ỦNG HỘ</h1>
-<p>Ứng dụng mình làm phi lợi nhuận, hoàn toàn không gắn quảng cáo, nên nếu các bạn thấy ứng dụng hay hãy ủng hộ mình đánh giá 5 sao cho ứng dụng nhé. Để mình có động lực làm các ứng dụng hay hơn để hỗ trợ cho việc học tập, nâng cao kiến thức cho người Việt nhé. 😘😘😘</p>
+    <p>Từ điển Anh - Việt hàng đầu đã có mặt trên App Store miễn phí.</p>
 
-<!-- <h1><a href="https://me.momo.vn/PXIPT9sXiDu7udU2sKiEuX">ỦNG HỘ TEAM CỐC TRÀ ĐÁ QUA MOMO</a></h1> -->
-<h1><a href="itms-apps://itunes.apple.com/app/id1471160658?action=write-review">ĐÁNH GIÁ 5 SAO</a></h1>
-<h1><a href="itms-apps://itunes.apple.com/app/id1453840075">ỨNG DỤNG HỮU ÍCH KHÁC</a></h1>
-<!-- <h1><a href="ads">ỦNG HỘ TEAM BẰNG CÁCH XEM QUẢNG CÁO</a></h1> -->
+    <p>
+      Anh - Việt là bộ từ điển hoàn hảo với giao diện hiện đại, dễ sử dụng, nội dung chất lượng,
+      chức năng tìm kiếm nâng cao và phát âm tiếng bản địa cho tiếng Anh và tiếng Việt.
+      Nhiều loại từ điển khác nhau được tích hợp với hơn 100.000 từ cập nhật,
+      phù hợp cho học tập, làm việc, du lịch hoặc sử dụng tại nhà.
+    </p>
 
+    <p>
+      Phiên bản mới nhất có nhiều nội dung mới, được lựa chọn và biên soạn cẩn thận như:
+      trò chơi học từ vựng theo bài học TOEIC, IELTS, TOEFL;
+      cụm từ giao tiếp hằng ngày theo chủ đề; luyện nghe tiếng Anh...
+      giúp bạn nâng cao vốn từ và học ngoại ngữ dễ dàng hơn.
+    </p>
+
+    <h2>ỦNG HỘ</h2>
+    <p>
+      Ứng dụng được phát triển phi lợi nhuận, không gắn quảng cáo.
+      Nếu thấy hữu ích, bạn hãy ủng hộ bằng cách đánh giá 5 sao để mình có thêm động lực
+      làm các ứng dụng tốt hơn cho việc học tập và nâng cao kiến thức.
+    </p>
+
+    <div class="actions">
+      <a class="action-link" href="itms-apps://itunes.apple.com/app/id1471160658?action=write-review">ĐÁNH GIÁ 5 SAO</a>
+      <a class="action-link" href="itms-apps://itunes.apple.com/app/id1453840075">ỨNG DỤNG HỮU ÍCH KHÁC</a>
+    </div>
+  </main>
 </body>
 </html>
